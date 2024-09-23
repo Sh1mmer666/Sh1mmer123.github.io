@@ -1,0 +1,39 @@
+/* 确保整个页面是全屏的 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 游戏容器样式 */
+#game-container {
+  display: flex; /* 使用Flexbox布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  height: 100%; /* 占满整个视口高度 */
+  width: 100%; /* 占满整个视口宽度 */
+}
+
+h1 {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  position: absolute;
+  margin: 0;
+  top: 35px;
+  right: 5px;
+  color: #aaa;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  display: block;
+  background: #000;
+}
